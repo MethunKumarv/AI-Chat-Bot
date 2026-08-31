@@ -15,7 +15,7 @@ function ChatHeader({ onClear, isTyping }) {
 
       <button onClick={onClear} className="new-chat-header-btn">
         <IoAdd size={18} />
-        <span>New Chat</span>
+        <span>Clear Chat</span>
       </button>
     </div>
   );
